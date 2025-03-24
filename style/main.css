@@ -47,3 +47,15 @@ span{
 a{
     font-family:  "Outfit", sans-serif;
 }
+@media (max-width:988px){
+    .col-md-4{
+        width: calc((100% - 1em) / 2);
+    }
+    
+}
+@media (max-width:502px){
+    .col-md-4{
+        width:100%;
+    }
+       
+}
